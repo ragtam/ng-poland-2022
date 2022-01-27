@@ -55,6 +55,7 @@ Coalescing should be done in a pipe or a directive
 # Sometines we need to mix imperative code with reactive code
 
 Article: Research on reactive ephemeral stata in component oriented frameworks
+dev.to/rxjs/research-on-reactive-ephemeral-state-in-component-oriented-frameworks-38lk
 
 Tutorial on rx-angular repo. app, demos, src
 Follow readme there
@@ -225,6 +226,18 @@ https://stackblitz.com/edit/ng-mat-rxjs-ex-hot-vs-cold
 use refCount: true
 
 Ask Michael in TT about Andreas problem with http and 1 second interval
+
+links:
+```
+https://stackblitz.com/edit/rxjs-queues-and-polling
+https://stackblitz.com/edit/rxjs-hot-vs-cold-observables
+https://ng-mat-rxjs-ex-hot-vs-cold.stackblitz.io/ex-base
+https://stackblitz.com/edit/ng-mat-rxjs-ex-hot-vs-cold
+https://stackblitz.com/edit/rxjs-touch
+https://github.com/rx-angular/rx-angular/blob/main/libs/state/README.md
+https://docs.google.com/presentation/d/1vJZ7KBfQrX4xsDBhSvIlFpnUBz5sHkCjK2oc1oFfkxo/edit#slide=id.p
+
+```
 
 
 

@@ -79,5 +79,120 @@ https://github.com/pacoita/modern-web
 What is that? Fastify, Pino
 https://nodeland.dev/
 
+# !!! The best JS framework ever created | Nir Kaufman
+
+```
+<script src="index.js" type="module">
+
+app.js // there do document.body.innerHTML = "<h1>"
+
+in index.js just do import './app.js'
+```
+
+
+it just works
+
+```
+
+create a class not in app.js, 
+
+define private properties with #
+
+```
+
+window.customElements.define('todo-header', Class extending HtmlElement)
+
+Extend HTML ELement
+
+# !!!! Typescript | 
+
+https://www.npmjs.com/package/commander
+
+```
+type Command = {
+    option(command: string, description?: string): Command
+    opts(): Record<string, any>
+}
+
+type Commander = {
+    new(): Command 
+}
+
+declare const Commander: Commander;
+
+const program = new Commander();
+
+```
+
+this is just a foundation
+
+```
+type Command = {
+    option<U extends string>(command: U, description?: string): Command
+    opts(): Record<string, any>
+}
+
+type Commander = {
+    new(): Command 
+}
+
+declare const Commander: Commander;
+
+const program = new Commander();
+
+```
+
+# Tooling | Chris Heilmann
+
+# Impact Driven Development | Hen
+
+# AI, HOW DID GITHUB COPILOT LEARN JAVASCRIPT? | Gerard Sans
+
+Assistant that could write code. 
+
+What if AI could do your job?
+How long do you think it can take?
+
+What has been happening in AI? 
+- Github Copilot
+It`s a coding assistant. 
+Codex JavaScript Sandbox
+OpenAI Copilot
+GTT 3 writing assistant
+copy.ai
+
+
+# PASSWORD | SAM BEGO
+
+presentation is online: 1990.SAMBEGO.TECH
+
+# JEST
+
+To match snapshot
+
+https://stackoverflow.com/questions/50213784/how-snapshot-testing-works-and-what-does-tomatchsnapshot-function-do-in-jest
+
+# MULTI FRAMEWORK MICRO FRONTENDS, MODULE FEDERATION AND WEB COMPONENTS | MANFRED STEYER
+
+Egg Laying Wooly Milk Pig (German Metaphor) - product capable of doing everything, swiss army knife
+
+# Core Web Vitals | MARTA TT: MartaW_PL
+
+1. Largest Contentful Paint (loading)
+2.5 is fine
+
+2. First Input Delay (interactivity)
+
+3. Cumulative Layout Shift (visual stability)
+font-display: optional + link rel
+
+## How to Measure it?
+In the lab:
+chrome dev tools, lighthouse, webPageTest, Web Vitals Extension
+
+Do przesłuchania, web vitals report, statystyki w googla analytics
+
+# ELM, delightful language for learning functional programming | KAJETAN
+kajetan.dev
 
 
